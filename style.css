@@ -3,6 +3,7 @@ body{
     font-optical-sizing: auto;
     font-style: normal;
 }
+/*navigation-bar*/
 .navbar {
     list-style: none;
 }
@@ -36,7 +37,7 @@ body{
     background: rgb(0, 103, 172);
     color: white;
 }
-
+/*page1*/
 #main-intro-written {}
 
 .light-font {
