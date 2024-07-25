@@ -41,6 +41,7 @@ body{
 
 .light-font {
     font-weight: 350;
+    font-size: 16.5px;
 }
 
 .bold-font {
@@ -65,4 +66,9 @@ body{
     color: white;
     font-weight: 550;
     background-color: none;
+}
+#main-img{
+    display: inline;
+    width: 110%;
+    height: 110%;
 }
