@@ -1,25 +1,68 @@
+body{
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
 .navbar {
     list-style: none;
 }
-.navbar a{
-text-decoration: none;
-color: black;
+
+.navbar a {
+    text-decoration: none;
+    color: black;
 }
-.navbar a:hover{
-    color:rgb(0, 103, 172) ;
-   border-bottom: solid;
-   border-width: 1px;
+
+.navbar a:hover {
+    color: rgb(0, 103, 172);
+    border-bottom: solid;
+    border-width: 1px;
 }
-#img-logo{
+
+#img-logo {
     width: 200px;
     height: 75px;
     margin-right: auto;
+    
 }
-.navbar-item{
-    padding-right: 24px;
+#img-logo a:hover{
+    border-bottom: none;
 }
-#btn-book-ap{
+.navbar-item {
+    padding-right: 22px;
+}
+
+#btn-book-ap {
     border-radius: 40px;
-    background:rgb(0, 103, 172);
+    background: rgb(0, 103, 172);
     color: white;
+}
+
+#main-intro-written {}
+
+.light-font {
+    font-weight: 350;
+}
+
+.bold-font {
+    font-weight: 700;
+}
+
+.navbar{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+#services-btn{
+    border-radius: 4px;
+    width: 150px;
+    background-color: rgb(244, 95, 11);
+    color: white;
+    font-weight: 550;
+
+}
+#estimate-btn{
+    color: white;
+    font-weight: 550;
+    background-color: none;
 }

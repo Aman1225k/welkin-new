@@ -9,6 +9,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+    <!--navbar font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap" rel="stylesheet">
+
     <title> Welkin Web Solution </title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -18,7 +27,7 @@
         <div class="container bg-light">
             <ul class="navbar">
                 <li class="navbar-item" style="margin-right: 180px;">
-                    <a class="" href="index.html" style="margin-right: 50px;"> <img id="img-logo" src="images/logo.png"> </a>
+                    <img id="img-logo" src="images/logo.png">
                 </li>
                 <li class="navbar-item">
                     <a class="navbar-link" href="#">Home</a>
@@ -36,16 +45,35 @@
                     <a class="navbar-link" href="#">Blog</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="#" class="btn" id="btn-book-ap" style="width: 210px; border-bottom: none;"> Book an Appointment</a>
+                    <a href="#" class="btn" id="btn-book-ap" style="width: 210px; border-bottom: none;"> Book an
+                        Appointment</a>
                 </li>
             </ul>
         </div>
     </div>
-    <div class="container-fluid" style="background-color: rgb(11, 9, 46);">
+    <div class="container-fluid" id="main-intro" style="background-color: rgb(11, 9, 46);">
         <div class="container mt-5">
-       <h1 >  <span style="color: rgb(251, 114, 4);"> 5K </span> <span style="color: rgb(249, 209, 4);"> + </span></h1>
-        <h3 style="color: white;">Happy Clients</h3>
-
+            <div class="container w-75" id="main-intro-written">
+                <h1 class="bold-font"> <span style="color:rgb(244, 95, 11);"> 5K </span> <span
+                        style="color: rgb(249, 209, 4);"> +
+                    </span></h1>
+                <h3 class="bold-font" style="color: white; font-weight: 550;">Happy Clients</h3>
+                <p class="light-font" style="color: white; width: 500px;"> Join the community of clients who have
+                    experienced joy and
+                    success with our
+                    products and services.</p>
+                <h1 class="bold-font"> <span style="color: rgb(244, 95, 11);"> 6000K </span> <span
+                        style="color: rgb(249, 209, 4);"> +
+                    </span></h1>
+                <h3 class="bold-font" style="color: white; font-weight: 550;">Project Complete</h3>
+                <p class="light-font" style="color: white; width: 500px;"> Experience the simplicity of our Development
+                    - each designed for
+                    easy use and customization.</p>
+                <div><a href="#" class="btn light-font" id="services-btn" style="font-size: 19px;">Our Services</a> <a
+                        href="#" class="btn light-font ms-5" id="estimate-btn" style="font-size: 19px;">Estimate A Project
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </body>
