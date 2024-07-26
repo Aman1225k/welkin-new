@@ -87,3 +87,8 @@ body{
 .box-head{
     font-weight: 600;
 }
+#box-cols:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black
+}
