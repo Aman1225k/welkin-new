@@ -38,7 +38,6 @@ body{
     color: white;
 }
 /*page1*/
-#main-intro-written {}
 
 .light-font {
     font-weight: 350;
@@ -71,5 +70,20 @@ body{
 #main-img{
     display: inline;
     width: 110%;
-    height: 110%;
+    height: auto;
+}
+/*page2*/
+#boxes-page2{
+    color: white;
+}
+.list-item{
+    list-style-type: none;
+    border-bottom: solid;
+    border-width: thin;
+    border-color: rgb(110, 108, 108);
+    text-align: left;
+}
+/* boxes */
+.box-head{
+    font-weight: 600;
 }
