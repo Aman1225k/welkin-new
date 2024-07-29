@@ -15,8 +15,7 @@ body{
 
 .navbar a:hover {
     color: rgb(0, 103, 172);
-    border-bottom: solid;
-    border-width: 1px;
+    
 }
 
 #img-logo {
@@ -83,7 +82,7 @@ body{
     border-color: rgb(110, 108, 108);
     text-align: left;
 }
-/* boxes */
+/* page2-boxes */
 .box-head{
     font-weight: 600;
 }
@@ -91,4 +90,25 @@ body{
     cursor: pointer;
     background-color: white;
     color: black
+}
+
+/* page3 */
+.page3-h5{
+    font-weight:800;
+}
+.know-more-btn{
+    color: white;
+    background-color:rgb(244, 95, 11) ;
+    width:300px ;
+    font-weight: 600;
+    padding: 10px;
+}
+.know-more-btn:hover{
+    background-color:rgb(244, 95, 11) ;
+    color: white;
+    box-shadow: 3px 5px rgb(207, 207, 207);
+}
+.work-images{
+    width: 90%;
+    height: auto;
 }
