@@ -68,7 +68,7 @@ body{
 }
 #main-img{
     display: inline;
-    width: 110%;
+    max-width: 100%;
     height: auto;
 }
 /*page2*/
@@ -96,7 +96,7 @@ body{
 .page3-h5{
     font-weight:800;
 }
-.know-more-btn{
+.know-more-btn, #portfolio-btn{
     color: white;
     background-color:rgb(244, 95, 11) ;
     width:300px ;
@@ -106,9 +106,8 @@ body{
 .know-more-btn:hover{
     background-color:rgb(244, 95, 11) ;
     color: white;
-    box-shadow: 3px 5px rgb(207, 207, 207);
 }
 .work-images{
-    width: 90%;
+    max-width: 100%;
     height: auto;
 }
