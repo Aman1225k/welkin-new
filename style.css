@@ -135,3 +135,7 @@ body{
 .page-end-para{
     font-size:17px;
 }
+.end-link-item a{
+    text-decoration: none;
+    color: white;
+}
