@@ -103,11 +103,35 @@ body{
     font-weight: 600;
     padding: 10px;
 }
-.know-more-btn:hover{
-    background-color:rgb(244, 95, 11) ;
-    color: white;
+.know-more-btn:hover, .submit-btn:hover, #portfolio-btn:hover, #services-btn:hover{
+    background-color:white ;
+    color:rgb(244, 95, 11) ;
 }
 .work-images{
     max-width: 100%;
     height: auto;
+}
+
+/*page-5 */
+.check-box{
+    font-weight: 450;
+}
+.submit-btn{
+    background-color:rgb(244, 95, 11) ;
+    color: white;
+    width: 130px;
+    font-weight: 600;
+}
+.submit-btn a{
+    text-decoration: none;
+   
+}
+
+/*end-page */
+.heading-end{
+    color:rgb(244, 95, 11) ;
+    font-weight: 650;
+}
+.page-end-para{
+    font-size:17px;
 }
