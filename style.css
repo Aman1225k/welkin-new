@@ -30,7 +30,9 @@ body{
 .navbar-item {
     padding-right: 22px;
 }
-
+.nav-link{
+    padding-right: 30px;
+}
 #btn-book-ap {
     border-radius: 40px;
     background: rgb(0, 103, 172);
